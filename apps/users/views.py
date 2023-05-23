@@ -4,8 +4,6 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 
 from apps.users.models import User
 from apps.users.serializers import UserRegisterSerializer, UserSerializer, UserDetailSerializer
-
-# Create your views here.
 class UserAPIViewSet(GenericViewSet,
                      ListModelMixin,
                      RetrieveModelMixin,
