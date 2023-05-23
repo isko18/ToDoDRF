@@ -29,7 +29,7 @@ class ToDo(models.Model):
         verbose_name="Дата создания"
     )
     image = models.ImageField(
-        upload_to="todo_image/",
+        upload_to="todo_images/",
         verbose_name="Фотография"
     )
 
